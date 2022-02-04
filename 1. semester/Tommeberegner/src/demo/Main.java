@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
         final double centimeter = 2.54; //Vores konstant ved at putte final foran. Centimeter der er på en tomme.
         String jegVilUd = "Y";
+        Scanner scanner = new Scanner(System.in); //Vores scanner
         System.out.println("Velkommen til programmet Tommeberegner til centimeter!");
         while (!jegVilUd.equals("E")) {
-            Scanner scanner = new Scanner(System.in); //Vores scanner
             System.out.println("Indtast en længde i tommer: ");
             double tommer = scanner.nextDouble(); //Vi bruger scanner.nextDouble så det var muligt at skrive eksempelvis 2,4 tommer.
             System.out.println(tommer + " tommer svarer til " + tommer * centimeter + " centimeter");
