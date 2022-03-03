@@ -1,6 +1,8 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
-public class krytp {
+public class Enigma1 {
     Scanner sc = new Scanner(System.in);
     int shift, i, n; //Vores shift
     String str; //Vores string for beskeden
@@ -89,7 +91,7 @@ public class krytp {
 //Samme gjort, bare omvendt for kryptering
 
     public static void main(String[] args) {
-        new krytp().loop();
+        new Enigma1().loop();
     }
 }
 //Vi kunne ikke implemeterer æ, ø, å med den måde vi havde løst opgaven. Her kunne man eksempelvis lavet en String med alle bogstaver.
