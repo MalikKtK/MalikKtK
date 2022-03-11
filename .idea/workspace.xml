@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="713baa79-9f22-429b-882d-239881211e07" name="Changes" comment="Flyttet mapperne rundt" />
+    <list default="true" id="713baa79-9f22-429b-882d-239881211e07" name="Changes" comment="Flyttet mapperne rundt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +50,8 @@
       <workItem from="1645118106688" duration="14000" />
       <workItem from="1645118123535" duration="47000" />
       <workItem from="1646989087303" duration="55000" />
-      <workItem from="1646991751284" duration="370000" />
+      <workItem from="1646991751284" duration="635000" />
+      <workItem from="1646992421767" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="Flyttet mapperne rundt">
       <created>1646991951450</created>
@@ -57,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646991951450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Flyttet mapperne rundt">
+      <created>1646992165983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646992165983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
