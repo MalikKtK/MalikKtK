@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d250e43-de32-4bef-b131-285619d798ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/Dat22v1 - W10D1 - OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day2/grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day2/person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day2/personTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day2/skole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Day3/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Opgave/Kid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/Opgave/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/StabiloBoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/StabiloBossProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/StabiloBossUltra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/carsWithAnAttitude/CarsWithAnAttitude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/carsWithAnAttitude/TestCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/sadStudents/SadStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dat22v1 - W10D1 - OOP/src/sadStudents/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d250e43-de32-4bef-b131-285619d798ea" name="Changes" comment=" b" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +85,7 @@
       <updated>1646912346241</updated>
       <workItem from="1646912348178" duration="258000" />
       <workItem from="1646916338812" duration="5595000" />
-      <workItem from="1646982930318" duration="701000" />
+      <workItem from="1646982930318" duration="903000" />
     </task>
     <servers />
   </component>
