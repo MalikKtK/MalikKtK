@@ -5,18 +5,21 @@ public class Test {
         SadStudent student = new SadStudent("Malik");
 
 
-        student.danceLikeCrazy();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
+            student.danceLikeCrazy();
+        }
+        for (int i = 0; i < 7; i++) {
             student.shoutLikeCrazy();
         }
-        student.lookLikeAZombie();
-        for (int i = 0; i < 5; i++) {
-            student.shoutLikeCrazy();
+        for (int i = 0; i < 2; i++) {
+            student.ignoreTeacherInspirationalMoves();
         }
-        student.ignoreTeacherInspirationalMoves();
-        student.danceLikeCrazy();
-
+        for (int i = 0; i < 2; i++)
+            student.lookLikeAZombie();
 
         System.out.println(student);
+        if (student.ExpectedExamGrade == 10) {
+            System.out.println("Congratz, you look like a smart kid!");
+        }
     }
 }

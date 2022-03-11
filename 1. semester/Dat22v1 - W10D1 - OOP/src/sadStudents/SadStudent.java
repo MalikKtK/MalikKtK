@@ -36,6 +36,7 @@ public class SadStudent {
         this.ExpectedExamGrade -= 1;
     }
 
+
     @Override
     public String toString() {
         return "Student: " + name +
