@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="713baa79-9f22-429b-882d-239881211e07" name="Changes" comment="">
+    <list default="true" id="713baa79-9f22-429b-882d-239881211e07" name="Changes" comment="Flyttet mapperne rundt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +11,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24dXpz81t9EN9VCwqvbfyGBJlft" />
   <component name="ProjectViewState">
@@ -22,6 +25,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kutuk\Documents\GitHub\MalikKtK\1. semester\Enigma" />
+      <recent name="C:\Users\kutuk\Documents\GitHub\MalikKtK\1. semester\Dat22v1 - W10D1 - OOP\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,10 +49,43 @@
       <workItem from="1645097155552" duration="17000" />
       <workItem from="1645118106688" duration="14000" />
       <workItem from="1645118123535" duration="47000" />
+      <workItem from="1646989087303" duration="55000" />
+      <workItem from="1646991751284" duration="635000" />
+      <workItem from="1646992421767" duration="265000" />
     </task>
+    <task id="LOCAL-00001" summary="Flyttet mapperne rundt">
+      <created>1646991951450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646991951450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Flyttet mapperne rundt">
+      <created>1646992165983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646992165983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flyttet mapperne rundt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyttet mapperne rundt" />
   </component>
 </project>
