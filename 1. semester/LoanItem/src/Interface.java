@@ -2,16 +2,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Interface {
-    private Scanner input = new Scanner(System.in);
-    private String in;
+    private final Scanner input = new Scanner(System.in);
 
     public String getUserInput() {
-        in = input.nextLine().toLowerCase(Locale.ROOT);
-        return in;
-    }
-
-    public void askForAmount() {
-        System.out.println("How many items do you wish to loan?");
+        return input.nextLine().toLowerCase(Locale.ROOT);
     }
 
     public void askForInput() {
@@ -19,7 +13,7 @@ public class Interface {
         What would you like to loan?
         Books
         Videos
-        Nothing
+        Exit
         """);
     }
 

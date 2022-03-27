@@ -3,10 +3,10 @@ package AuthorAndBooks;
 import java.util.ArrayList;
 
 public class Author {
-    private String name;
-    private char gender;
-    private String email;
-    private ArrayList<Book> books = new ArrayList<>();
+    private final String name;
+    private final char gender;
+    private final String email;
+    private final ArrayList<Book> books = new ArrayList<>();
 
     public Author(String name, char gender, String email) {
         this.name = name;
@@ -31,19 +31,16 @@ public class Author {
         books.add(book);
     }
 
-    public ArrayList<Book> getBooks() {
-        return books;
-    }
 
     public String printBooks() {
-        String printResult = "";
+        StringBuilder printResult = new StringBuilder();
         for (Book book : books) {
-            printResult += book.getTitle();
-            printResult += "              ";
-            printResult += book.getNumPages();
-            printResult += "\n";
+            printResult.append(book.getTitle());
+            printResult.append("              ");
+            printResult.append(book.getNumPages());
+            printResult.append("\n");
         }
-        return printResult;
+        return printResult.toString();
     }
 
 }
