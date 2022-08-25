@@ -5,17 +5,12 @@ public class Course {
     private ArrayList<Student> students;
 
 
+
+
+
     public Course(String title) {
         this.title = title;
-        this.students = new ArrayList<>();
-    }
-
-    public ArrayList<Student> getStudents() {
-        return students;
-    }
-
-    public void setStudents(Student students) {
-        this.students.add(students);
+        students = new ArrayList<>();
     }
 
     public String getTitle() {
@@ -26,10 +21,18 @@ public class Course {
         this.title = title;
     }
 
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Student student) {
+        this.students.add(student);
+    }
+
     @Override
     public String toString() {
         return "Course{" +
-                "title ='" + title + '\'' +
+                "title='" + title + '\'' +
                 '}';
     }
 }
