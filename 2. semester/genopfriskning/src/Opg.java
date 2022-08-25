@@ -1,5 +1,3 @@
-package opgaver;
-
 import java.awt.image.AreaAveragingScaleFilter;
 import java.io.IOException;
 import java.util.ArrayList;

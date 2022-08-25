@@ -1,5 +1,3 @@
-package opgaver;
-
 public class Bog {
   private int ISBN;
   private String title;
