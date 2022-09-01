@@ -62,15 +62,15 @@ public class Opg {
     strings.add("a");
     strings.add("b");
     strings.add("b");
-    //opg.kvadrat(6, "'");
+    opg.kvadrat(6, "*");
     //opg.ProperCase("AAA abcd BBB bb CAn WE SeE loongword");
     //opg.sorting();
-    
-    try {
-      System.out.println(opg.find(strings, "a"));
-    } catch (RuntimeException e) {
-      System.out.println(e);
-    }
+
+//    try {
+//      System.out.println(opg.find(strings, "a"));
+//    } catch (RuntimeException e) {
+//      System.out.println(e);
+ //   }
   }
   
 }
