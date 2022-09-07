@@ -1,0 +1,18 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweater</title>
+    <link rel="stylesheet" th:href="@{style.css}" href="../static/style.css">
+</head>
+<body>
+    <div class="content">
+        <p class="tweat">Test</p>
+        <p class="tweat">Test</p>
+        <p class="tweat">Test</p>
+        <p class="tweat">Test</p>
+    </div>
+    <div th:replace="fragments/general.html :: footer(parameter=${tweat})">
+    </div>
+</body>
+</html>

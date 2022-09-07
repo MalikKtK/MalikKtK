@@ -1,0 +1,66 @@
+/*Full page styling*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(29, 161, 242), rgb(165, 217, 250));
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Main content box*/
+.heading{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.heading h1{
+    font-weight: normal;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    margin-top: 5%;
+    background-color: rgba(255,255,255,85%);
+    border-radius: 2%;
+}
+
+/*Form related styling*/
+.form{
+    width:70%;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width:100%;
+    margin-bottom: 4%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#tweat{
+    padding-bottom: 10%;
+}
+
+input[type=submit]{
+    width: 30%;
+    float:right;
+}
+
+/*Tweats*/
+.tweat{
+    padding-bottom: 10%;
+}
