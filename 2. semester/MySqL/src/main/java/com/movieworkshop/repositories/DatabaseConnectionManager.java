@@ -11,7 +11,7 @@ public class DatabaseConnectionManager {
     private static Connection conn;
 
     public static Connection getConn() {
-        hostname = "jdbc:mysql://keadatabase.mysql.database.azure.com";
+        hostname = "jdbc:mysql://keadatabase.mysql.database.azure.com/movies";
         username = "malik2635";
         password = "Nwr92auv";
 
