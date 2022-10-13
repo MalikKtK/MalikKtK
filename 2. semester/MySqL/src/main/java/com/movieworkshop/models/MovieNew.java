@@ -19,6 +19,16 @@ public class MovieNew {
         this.awards = awards;
     }
 
+    public MovieNew(int year, int length, String title, String subject, int popularity, String awards) {
+        this.year = year;
+        this.length = length;
+        this.title = title;
+        this.subject = subject;
+        this.popularity = popularity;
+        this.awards = awards;
+    }
+
+
     public int getId() {
         return id;
     }

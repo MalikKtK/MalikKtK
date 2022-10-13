@@ -1,7 +1,8 @@
-package com.movieworkshop.controllers;
+package com.movieworkshop.controller;
 
 
 import com.movieworkshop.models.Movie;
+import com.movieworkshop.models.MovieNew;
 import com.movieworkshop.services.MovieService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -57,5 +58,14 @@ public class MoviesController {
     @GetMapping("/longest")
     public String longest(@RequestParam String g1, @RequestParam String g2 ){
         return movieService.longest(g1, g2);
+    }
+
+    @GetMapping("/getallmovies")
+    public List<MovieNew> movies(){
+        return movieService.getAllMovies();
+    }
+    @GetMapping("/getmovie")
+    public MovieNew getMovie(int id) {
+        return movieService.getMovie(id);
     }
 }
