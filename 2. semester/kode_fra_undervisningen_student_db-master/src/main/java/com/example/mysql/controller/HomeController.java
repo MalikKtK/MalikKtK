@@ -15,7 +15,6 @@ import org.springframework.web.context.request.WebRequest;
 public class HomeController {
 
     private StudentService service = new StudentService();
-    StudentsRepository repo = new StudentsRepository();
 
     @GetMapping("/create")
     public String index(){
@@ -30,7 +29,7 @@ public class HomeController {
     }
     @GetMapping("/getallstudents")
     public String getStudent(Model model) {
-        model.addAttribute("studentlist", repo.getAllStudents());
+        model.addAttribute("studentlist", service.getAllStudents());
         return "student";
     }
 
