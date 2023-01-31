@@ -1,4 +1,4 @@
-public class App {
+public class MainDouble {
 
     private static void out(String s1) {
         System.out.println(s1);
@@ -29,12 +29,16 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
-        out('a');
-        out('b');
-        out('ض');
-    for (int i = 1590; i < 1596; i++) {
-        out("i = " + i + (char)i);
+        out(4 > 5);
+        out(5.4);
+        Long l1 = 456l;
+        out(l1);
+        float f1 = 12f;
+        out(f1);
+        Double d1 = 12.5;
+        for (int i = 1; i < 10; i++) {
+            d1 = d1 + 10000.1;
+            out(d1);
+        }
     }
-}
-
 }
