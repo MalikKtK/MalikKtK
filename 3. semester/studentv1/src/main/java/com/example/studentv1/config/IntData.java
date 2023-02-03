@@ -30,9 +30,9 @@ public class IntData implements CommandLineRunner {
         s1.setBornDate(LocalDate.now());
         s1.setBornTime(LocalTime.now());
         studentRepository.save(s1);
-        System.out.println("Student saved");
+        System.out.println("saved");
         List<Student> lst = studentRepository.findAll();
-        System.out.println("Student list: " + lst.size());
+        System.out.println("Antal studerende i database=" + lst.size());
         s1.setId(2);
         studentRepository.save(s1);
         System.out.println("saved");
