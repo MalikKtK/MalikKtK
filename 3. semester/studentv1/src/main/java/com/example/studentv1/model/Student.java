@@ -18,6 +18,13 @@ public class Student {
     private LocalDate bornDate;
     private LocalTime bornTime;
 
+    public Student() {
+    }
+
+    public Student(String name) {
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }
