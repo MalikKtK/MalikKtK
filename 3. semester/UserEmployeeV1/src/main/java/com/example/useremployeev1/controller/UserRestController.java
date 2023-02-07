@@ -15,7 +15,8 @@ public class UserRestController {
     UserRepository userRepository;
 
     @GetMapping("/users")
-    public List<User> getUsers() {
+    public List<User> getusers() {
         return userRepository.findAll();
+
     }
 }

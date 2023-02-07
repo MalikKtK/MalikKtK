@@ -8,21 +8,22 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int userId;
+    private int userID;
+
     private String email;
     private String password;
+
 
     @OneToOne(mappedBy = "user")
     @JsonBackReference
     private Employee employee;
 
-
-    public int getUserId() {
-        return userId;
+    public int getUserID() {
+        return userID;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
 
     public String getEmail() {

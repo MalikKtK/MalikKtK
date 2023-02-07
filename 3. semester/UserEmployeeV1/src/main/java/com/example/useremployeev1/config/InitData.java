@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 
 @Component
 public class InitData implements CommandLineRunner {
+
     @Autowired
     UserRepository userRepository;
 
@@ -20,17 +21,20 @@ public class InitData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if (13 > 4) {
-            User user = new User();
-            user.setEmail("kutuk-malik2635@live.dk");
-            user.setPassword("nwr92auv");
-            userRepository.save(user);
+        if (13>4) {
 
-            Employee employee = new Employee();
-            employee.setName("Malik");
-            employee.setBorn(LocalDateTime.of(1999, 12, 26, 17, 30));
-            employee.setUser(user);
-            employeeRepository.save(employee);
+            User usr = new User();
+            usr.setEmail("malik@gmail.com");
+            usr.setPassword("nwr92auv");
+            userRepository.save(usr);
+
+            Employee emp = new Employee();
+            emp.setName("malik");
+            emp.setBorn(LocalDateTime.of(1999, 12, 26, 10, 10));
+            emp.setUser(usr);
+
+            employeeRepository.save(emp);
+
         }
     }
 }

@@ -9,18 +9,22 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int employeeId;
+    private int id;
     private String name;
     private LocalDateTime born;
     private Gender gender;
     private boolean vegetarian;
 
-    @OneToOne()
-    @JoinColumn(name = "userId", referencedColumnName = "userId")
-    private User user;
 
-    public Employee() {
+    public boolean isValidEmail() {
+        if (this.user == null) return false;
+        String[] arr = this.user.getEmail().split("@");
+        return arr[0].equals(this.getName());
     }
+
+    @OneToOne
+    @JoinColumn(name = "userid", referencedColumnName = "userID")
+    private User user;
 
     public User getUser() {
         return user;
@@ -30,12 +34,12 @@ public class Employee {
         this.user = user;
     }
 
-    public int getEmployeeId() {
-        return employeeId;
+    public int getId() {
+        return id;
     }
 
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
