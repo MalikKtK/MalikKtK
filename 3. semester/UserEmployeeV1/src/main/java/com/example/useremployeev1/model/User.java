@@ -1,5 +1,6 @@
 package com.example.useremployeev1.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 @Entity
@@ -12,6 +13,7 @@ public class User {
     private String password;
 
     @OneToOne(mappedBy = "user")
+    @JsonBackReference
     private Employee employee;
 
 

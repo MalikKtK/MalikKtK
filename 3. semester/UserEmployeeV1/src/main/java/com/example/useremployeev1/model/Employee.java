@@ -19,6 +19,9 @@ public class Employee {
     @JoinColumn(name = "userId", referencedColumnName = "userId")
     private User user;
 
+    public Employee() {
+    }
+
     public User getUser() {
         return user;
     }
