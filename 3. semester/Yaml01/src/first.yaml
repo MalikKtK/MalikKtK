@@ -1,0 +1,9 @@
+name: ali
+age: 28
+active: true
+lastname: "Hey my name is erik"
+camera:
+  name: cam1
+  rover: rover1
+jsonObject: {cam1: 1, cam2: 2}
+viggo: {cam3: 3, cam4: 4}
