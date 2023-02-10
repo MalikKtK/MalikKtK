@@ -30,10 +30,11 @@ public class IntData implements CommandLineRunner {
         s1.setBornDate(LocalDate.now());
         s1.setBornTime(LocalTime.now());
         studentRepository.save(s1);
-        System.out.println("Student saved");
+        System.out.println("saved");
         List<Student> lst = studentRepository.findAll();
-        System.out.println("Student list: " + lst.size());
+        System.out.println("Antal studerende i database=" + lst.size());
         s1.setId(2);
+        s1.setName("Viggox");
         studentRepository.save(s1);
         System.out.println("saved");
         lst = studentRepository.findAll();
@@ -51,6 +52,7 @@ public class IntData implements CommandLineRunner {
         List<Teacher> thlist = teacherRepository.findAll();
         System.out.println("Tecaher list: " + thlist.size());
         t1.setId(2);
+        t1.setName("Malikx");
         teacherRepository.save(t1);
         System.out.println("saved");
         thlist = teacherRepository.findAll();
@@ -59,5 +61,4 @@ public class IntData implements CommandLineRunner {
 
 
     }
-
 }
