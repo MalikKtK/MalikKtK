@@ -1,0 +1,40 @@
+name: Ali
+age: 28
+adress: "myway num1"
+
+active: true
+notact: false
+
+key:
+  key1: value1
+  key2: value2
+
+somjson: {key: value, key2: value}
+
+jobarray:
+  - item1
+  - item2
+  - item3
+
+jobarrayobj:
+  - item1
+  - item2
+  - {name: lene, age: 25}
+
+objectsArray2:
+  - key: value
+  - key2: 17
+
+objectsArray3:
+  -key:value
+   key2:value
+  -key:value
+   key2:value
+
+longText: >
+  alsdkf jafd aldfsj adflkajd fadf
+  alkfdjadslfjadsfj
+
+longText2: |
+  adfladf aldfj aldjfa dlfjadf
+  adsfadsfaf
