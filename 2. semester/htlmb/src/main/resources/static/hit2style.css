@@ -1,0 +1,39 @@
+.grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    height: 300px;
+    width: 300px;
+}
+
+.red {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 100px;
+    background-color: red;
+}
+
+.blue {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 100px;
+    background-color: blue;
+}
+
+.green {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 100px;
+    background-color: green;
+}
+
+.empty {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 100px;
+}
+
+#whole_grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    height: 300px;
+    width: 900px;
+
+    margin: 200px auto;
+
+}

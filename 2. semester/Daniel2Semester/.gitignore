@@ -1,0 +1,6 @@
+# Java out
+out/
+
+# Intellij specific
+.idea/
+*.iml

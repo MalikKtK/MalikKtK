@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Platformer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Platformer_jar</output-path>
+    <root id="archive" name="Platformer.jar">
+      <element id="module-output" name="Platformer" />
+    </root>
+  </artifact>
+</component>

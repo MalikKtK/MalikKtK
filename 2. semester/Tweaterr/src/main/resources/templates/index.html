@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweater</title>
+    <link rel="stylesheet" th:href="@{style.css}" href="../static/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="heading">
+            <h1>🦩 Tweater</h1>
+        </div>
+        <div class="form">
+            <form>
+                <label for="tweat">Tweat</label>
+                <input type="text" id="tweat">
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="form">
+            <form action="/login" method="POST">
+                <label for="email">e-mail</label>
+                <input type="text" id="email" name="email">
+                <label for="password">password</label>
+                <input id="password" type="password" name="password">
+
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="tweets">
+            <p class="tweat" th:each="tweat : ${allTweats}">
+                <span th:text="${tweat}"></span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
