@@ -1,0 +1,14 @@
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\bin\Debug\net7.0\Imperativ1.exe
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\bin\Debug\net7.0\Imperativ1.deps.json
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\bin\Debug\net7.0\Imperativ1.runtimeconfig.json
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\bin\Debug\net7.0\Imperativ1.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\bin\Debug\net7.0\Imperativ1.pdb
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.AssemblyInfoInputs.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.AssemblyInfo.cs
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.csproj.CoreCompileInputs.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\refint\Imperativ1.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.pdb
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\Imperativ1.genruntimeconfig.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Imperativ1\obj\Debug\net7.0\ref\Imperativ1.dll

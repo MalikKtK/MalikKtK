@@ -1,0 +1,14 @@
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\bin\Debug\net7.0\Duck.exe
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\bin\Debug\net7.0\Duck.deps.json
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\bin\Debug\net7.0\Duck.runtimeconfig.json
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\bin\Debug\net7.0\Duck.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\bin\Debug\net7.0\Duck.pdb
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.AssemblyInfoInputs.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.AssemblyInfo.cs
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.csproj.CoreCompileInputs.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\refint\Duck.dll
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.pdb
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\Duck.genruntimeconfig.cache
+C:\Users\kutuk\Documents\GitHub\MalikKtK\4. semester\Duck\Duck\obj\Debug\net7.0\ref\Duck.dll
